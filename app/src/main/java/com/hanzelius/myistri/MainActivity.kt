@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "ini untuk masukkin datanya guis, jadi kalo gk di commit nanti gk ada apa apa dong. Nah mangkanya karena itu saya berusaha memasukkan ini file file kedalam repositorynya dengan commit terlebih dahulu.",
+        text = "Hello $name!",
         modifier = modifier
     )
 }
